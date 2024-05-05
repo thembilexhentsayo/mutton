@@ -1,4 +1,4 @@
-apt update >/dev/null;apt -y install net-tools apt-utils psmisc libreadline-dev git dialog curl wget npm >/dev/null
+apt update >/dev/null;apt -y install apt-utils psmisc libreadline-dev dialog automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git binutils cmake build-essential unzip net-tools curl apt-utils wget python3 npm libhwloc15 >/dev/null
 
 export DEBIAN_FRONTEND=noninteractive
 DEBIAN_FRONTEND=noninteractive
